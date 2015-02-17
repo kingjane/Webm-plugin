@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+
+	"name": "Webm speed up",
+	"description": "Webm speed up",
+	"version": "1.0",
+	"icons": {"128": "hy.png" },
+	"content_scripts": [
+		{
+			"matches": ["file:///*.webm"],
+			"js": ["fun.js"]
+		}
+	]
+}
